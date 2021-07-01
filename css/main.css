@@ -522,3 +522,34 @@ footer.sticky-footer {
 .fa {
   color: #4183D7;
 }
+
+.columna {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.glyphi {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  float: left;
+  display: block;
+}
+.glyphi.search {
+  background: url(assets\verified.svg);
+  background-size: cover; 
+}
+.glyphi.normal { 
+  width: 28px; 
+  height: 16px;
+}
